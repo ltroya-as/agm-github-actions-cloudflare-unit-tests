@@ -8,10 +8,10 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "vitest": "vitest run",
-    "vitest:watch": "vitest",
-    "vitest:coverage": "vitest run --coverage",
-    "vitest:ui": "vitest --ui"
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui"
   },
   "dependencies": {
     "date-fns": "^3.6.0",
