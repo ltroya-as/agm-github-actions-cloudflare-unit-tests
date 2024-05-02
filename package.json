@@ -7,11 +7,23 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "vitest": "vitest run",
+    "vitest:watch": "vitest",
+    "vitest:coverage": "vitest run --coverage",
+    "vitest:ui": "vitest --ui"
   },
   "dependencies": {
     "nuxt": "^3.11.2",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.12.1",
+    "@vitest/ui": "^1.5.3",
+    "@vue/test-utils": "^2.4.5",
+    "happy-dom": "^14.7.1",
+    "playwright-core": "^1.43.1",
+    "vitest": "^1.5.3"
   }
 }
