@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    '@nuxt/test-utils/module'
-  ]
+    '@nuxt/test-utils/module','@nuxtjs/tailwindcss'
+  ],
+  tailwindcss: {
+    cssPath: false,
+    viewer: false,
+  }
 })
