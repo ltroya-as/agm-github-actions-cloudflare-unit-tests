@@ -8,4 +8,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    public: {
+      environment: process.env.ENVIRONMENT || 'NOT DEFINED',
+    }
+  }
 })
